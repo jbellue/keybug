@@ -1,0 +1,21 @@
+{
+    "name": "HID Keyboard",
+    "vendorId": "0x4C4B",
+    "productId": "0x4643",
+    "lighting": "none",
+    "matrix": {
+        "rows": 1,
+        "cols": 5
+    },
+    "layouts": {
+        "keymap": [
+            [
+                "0,0",
+                "0,1",
+                "0,2",
+                "0,3",
+                "0,4"
+            ]
+        ]
+    }
+}
