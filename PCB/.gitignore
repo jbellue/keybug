@@ -1,0 +1,6 @@
+Gerber/
+*~
+_autosave-*
+~*.lck
+*-backups
+fp-info-cache

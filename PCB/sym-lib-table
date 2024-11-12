@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mcu")(type "KiCad")(uri "/home/julien/repo/kleeb/mcu.kicad_sym")(options "")(descr ""))
+  (lib (name "switch")(type "KiCad")(uri "/home/julien/repo/kleeb/switch.kicad_sym")(options "")(descr ""))
+)
