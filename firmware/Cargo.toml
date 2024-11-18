@@ -1,10 +1,10 @@
 [package]
-name = "rmk-rp2040"
-version = "0.2.0"
-authors = ["Haobo Gu <haobogu@outlook.com>"]
+name = "keybug-rp2040-rmk"
+version = "0.0.1"
+authors = ["jbellue"]
 description = "Keyboard firmware written in Rust"
-homepage = "https://github.com/haobogu/rmk"
-repository = "https://github.com/haobogu/rmk"
+homepage = "https://github.com/jbellue/keybug"
+repository = "https://github.com/jbellue/keybug"
 readme = "README.md"
 edition = "2021"
 license = "MIT OR Apache-2.0"
@@ -41,7 +41,7 @@ json = "0.12"
 const-gen = "1.6"
 
 [[bin]]
-name = "rmk-rp2040"
+name = "keybug-rp2040-rmk"
 test = false
 bench = false
 

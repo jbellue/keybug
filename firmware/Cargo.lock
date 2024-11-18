@@ -887,6 +887,25 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "078e285eafdfb6c4b434e0d31e8cfcb5115b651496faca5749b88fafd4f23bfd"
 
 [[package]]
+name = "keybug-rp2040-rmk"
+version = "0.0.1"
+dependencies = [
+ "const-gen",
+ "cortex-m",
+ "cortex-m-rt",
+ "defmt",
+ "defmt-rtt",
+ "embassy-executor",
+ "embassy-rp",
+ "embassy-time",
+ "json",
+ "panic-probe",
+ "portable-atomic",
+ "rmk",
+ "xz2",
+]
+
+[[package]]
 name = "lalrpop"
 version = "0.19.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1379,25 +1398,6 @@ dependencies = [
  "serde_derive",
  "syn 2.0.55",
  "toml",
-]
-
-[[package]]
-name = "rmk-rp2040"
-version = "0.2.0"
-dependencies = [
- "const-gen",
- "cortex-m",
- "cortex-m-rt",
- "defmt",
- "defmt-rtt",
- "embassy-executor",
- "embassy-rp",
- "embassy-time",
- "json",
- "panic-probe",
- "portable-atomic",
- "rmk",
- "xz2",
 ]
 
 [[package]]
