@@ -3,7 +3,7 @@ name = "Keybug"
 product_name = "Keybug"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "julien"
+manufacturer = "jbellue"
 chip = "rp2040"
 
 [matrix]
