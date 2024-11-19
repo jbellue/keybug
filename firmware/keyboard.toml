@@ -19,7 +19,7 @@ cols = 5
 layers = 2
 keymap = [
     [
-        ["K", "E", "B", "U", "G"],
+        ["WM(F2, LCtrl)", "F9", "F8", "F7", "WM(F8, LShift)"],
     ],
     [
         ["_", "_", "_", "_", "_"],
