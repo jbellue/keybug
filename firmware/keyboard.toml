@@ -10,7 +10,7 @@ chip = "rp2040"
 matrix_type = "direct_pin"
 direct_pin_low_active = true
 direct_pins = [
-    ["PIN_13", "PIN_12", "PIN_11", "PIN_10", "PIN_5"],
+    ["PIN_14", "PIN_13", "PIN_12", "PIN_11", "PIN_10"],
 ]
 
 [layout]
